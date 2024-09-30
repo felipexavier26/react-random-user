@@ -1,0 +1,68 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .title {
+    text-align: center;
+    margin: 20px 0;
+    color: #333;
+  }
+  
+  /* Container de todos os usuários */
+  .user-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  /* Cartão de cada usuário */
+  .user-card {
+    display: flex;
+    width: 80%;
+    max-width: 900px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    align-items: center;
+  }
+  
+  /* Imagem do usuário */
+  .user-image img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+  }
+  
+  /* Informações principais do usuário */
+  .user-info {
+    flex: 2;
+    margin-left: 20px;
+  }
+  
+  .user-info h2 {
+    margin: 0;
+    color: #4a90e2;
+  }
+  
+  .user-info p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  /* Informações adicionais */
+  .user-extra {
+    flex: 1;
+    margin-left: 20px;
+  }
+  
+  .user-extra p {
+    margin: 5px 0;
+    color: #777;
+  }
+  
